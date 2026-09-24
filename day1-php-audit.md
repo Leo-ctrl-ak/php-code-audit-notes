@@ -67,15 +67,16 @@
 
 ## 五、实验截图
 
-![Seay 扫描结果](screenshots/01-seay-scan.png)
+![Seay 扫描结果](01-seay-scan.png)
 
 *图 1：Seay 对 `$_SERVER` 相关敏感调用的扫描告警*
 
-![源码漏洞调用点](screenshots/02-vulnerable-code.png)
+![源码漏洞调用点](02-vulnerable-code.png)
 
 *图 2：`All.php` 中构造函数的调用点（未过滤直接赋值）*
 
-![源码漏洞定义点](screenshots/03-vulnerable-function.png)
+![源码漏洞定义点](03-vulnerable-function.png)
+
 
 *图 3：`common.php` 中 `mac_get_refer()` 函数的定义点（漏洞根源）*
 
